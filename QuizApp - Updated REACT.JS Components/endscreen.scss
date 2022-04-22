@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.header {
+  padding: 40px;
+  background: #F49B14;
+  opacity: 90%;
+  color: #F1F1F1;
+  font-size: 30px;
+}
+
+
+#judul {
+  margin-top: 10%;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  text-align: center; place-items: center;
+}
+
+
+#hasil {
+  margin-top: 1em; font-size: 2em;
+  font-weight: 400; text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#nextQuestion {
+  background-position: center;
+  display: flex; margin: 5em auto;
+  justify-content: space-around;
+  width: 12em; border-radius: 10px;
+  background-color: #000080;
+  color: #F1F1F1; 
+}
+
+
+p {
+  margin-top: 1em;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 50em) {
+  
+  p {
+    font-size: 1em;
+  }
+  
+  .header {
+    padding: 40px;
+    background: #F49B14;
+    opacity: 90%;
+    color: #F1F1F1;
+  }
+  
+  #judul {
+    margin-top: 50%; margin-left: 1em;
+    font-weight: 700; font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center; place-items: center;
+  }
+  
+  #hasil {
+     font-size: 1em;
+  }
+  
+  #nextQuestion {
+    background-position: center;
+    display: flex; margin: 3em auto;
+    justify-content: space-around;
+    width: 9em; border-radius: 10px;
+    background-color: #000080;
+    color: #F1F1F1; 
+  }
+
+  p {
+    margin-top: 1em;
+    font-weight: 700; font-size: .8em;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+}

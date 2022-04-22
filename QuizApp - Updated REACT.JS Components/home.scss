@@ -1,0 +1,132 @@
+
+	@import url('https://fonts.googleapis.com/css2family=Roboto:wght@300;400;500;700&display=swap');
+
+
+
+	.header {
+  		padding: 40px;
+  		background: #F49B14;
+  		opacity: 90%;
+  		color: #F1F1F1;
+  		font-size: 30px;
+	}
+
+
+	#judul {
+  		margin-top: 35%; margin-left: 2.25em;
+ 		font-weight: 700;
+  		font-family: 'Roboto', sans-serif;
+  		text-align: center; place-items: center;
+	}
+
+
+	#keterangan {
+  		margin-top: 1em; margin-left: 2.25em;
+  		font-weight: 400; text-align: center;
+  		font-family: 'Roboto', sans-serif;
+	}
+
+
+	#home {
+  		background-position: center;
+  		display: flex;
+  		justify-content: space-around;
+  		height: 80vh;
+  		width: 100%;
+
+
+  		ul {
+    			list-style-type: none;
+    			text-align: center;
+    			place-items: center;
+  		}
+  
+
+  		li {
+    			margin: 2em auto; font-family: 'Roboto', sans-serif;
+    			padding: 5%; place-items: center; font-weight: 700;
+  		}
+
+
+  		section {
+    			background-color: #FFFFFF;
+    			padding-left: 2rem;
+    			padding-right: 2rem;
+  		}
+  
+
+  		.play-button-container {
+    			width: 100%;
+    			margin: 3em 0 0 0;
+  		}
+
+
+  		a.play-button {
+    			background-color: green;
+    			border-radius: 10px;
+    			display: block;
+    			color: #F1F1F1;
+    			cursor: pointer;
+    			padding: 1rem;
+    			text-align: center;
+  		}
+  
+  		.auth-container {
+    			width: 100%;
+    			display: flex;
+    			justify-content: space-around;
+ 		 }
+  
+  
+  		#login-button {
+    			background-color: #C0C0C0;
+    			color: #0C0C0C; border-radius: 10px;
+  		}
+  
+
+ 		 #signup-button {
+    			background-color: #000080;
+    			color: #F1F1F1; border-radius: 10px;
+  		}
+  
+
+  		.auth-container .auth-buttons {
+   	 		color: #F1F1F1;
+    			cursor: pointer;
+    			border-radius: 30px;
+    			text-align: center;
+    			padding: 1rem 0;
+    			width: 45%;
+  		}
+	}
+
+
+
+	@media only screen and (max-width: 50em) {
+  
+  		h1 {
+    			font-size: 2em;
+  		}
+  
+
+  		p {
+    			font-size: 1em;
+  		}
+  
+
+  		.header {
+    			padding: 40px;
+    			background: #F49B14;
+    			opacity: 90%;
+    			color: #F1F1F1;
+  		}
+
+  
+  		#judul {
+    			margin-top: 30%; margin-left: 1em;
+    			font-weight: 700;
+    			font-family: 'Roboto', sans-serif;
+    			text-align: center; place-items: center;
+  		}
+  
+	}

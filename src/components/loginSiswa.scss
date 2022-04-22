@@ -1,0 +1,27 @@
+#loginSiswa {
+    margin-top: 60px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+  }
+
+.play-button{
+    margin-top: 10px;
+    background-color: blue;
+    // border-radius: 30px;
+    display: block;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+#Kelas input,#NamaSiswa input {
+    width: 25em;
+    height: 2.5em;
+    border-radius: .5rem;
+    padding: 1%;
+  }
+
+

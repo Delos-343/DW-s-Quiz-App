@@ -1,0 +1,28 @@
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #F49B14;
+    color: white;
+    font-size: 30px;
+  }
+
+
+  #nextQuestion {
+    width: 200px;
+  }
+
+  .Quiz, h1 {
+    color: black;
+  }
+
+  .Quiz {
+      
+    height: 100vh;
+    width: 100vw;
+    border-radius: 10px;
+    //background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
